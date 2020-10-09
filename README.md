@@ -34,10 +34,20 @@
 6. 成功的话，这时候就可以进入一个暗色的界面（Hekate） 
 
 ### 第3步
-恭喜你，到这里你就已经破解成功了。点击launch > CFW 就可以进入破解系统了。
+恭喜你，到这里你就已经破解成功了。 从现在开始注入器和短接器都可以拔掉了，下次关机重新开机的时候才用得到。不插注入器按电源键正常开机就是OFW原装系统了。
 后面还有很多可以折腾的东西，不过到这就可以折腾动森了。
 
 不过在进入之前，强烈建议备份一下系统，以备不时之需。备份系统看下面的链接：
 
 [备份NAND](https://switch.homebrew.guide/hacking/caffeine/safetyprecautions)
 
+## 其他解释
+> [这个网站](https://www.reddit.com/r/SwitchHaxing/comments/gip0jb/>current_methods_and_exploits_beginner_faq_3_its/)有更详细的名词解释
+
+OFW： Original Firmware 也就是原装的系统
+
+CFW： Custom Firmware 也就所谓的（Modified）破解系统
+
+NAND: Switch机子的内置内存
+
+emuNAND： 这个是为了玩盗版游戏而把机子NAND完整copy到sd卡上的应该虚拟系统。**注意！**这个系统非常危险，应该保持全程断网。
