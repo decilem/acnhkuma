@@ -6,7 +6,7 @@
 进入一键制卡网站以后选择Recommended Defaults
 下面的一堆选项里面记得勾选上JKSV，忘记勾选也没关系，可以另外再下载，JKSV是把动森存档导出的关键工具
 
-![Imgur](https://imgur.com/GYKgpij)
+[Imgur](https://imgur.com/GYKgpij)
 
 完成以后拖到最后选择download your ZIP就好了
 
