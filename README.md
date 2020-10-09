@@ -50,4 +50,4 @@ CFW： Custom Firmware 也就所谓的（Modified）破解系统
 
 NAND: Switch机子的内置内存
 
-emuNAND： 这个是为了玩盗版游戏而把机子NAND完整copy到sd卡上的应该虚拟系统。**注意！**这个系统非常危险，应该保持全程断网。
+emuNAND： 这个是为了玩盗版游戏而把机子NAND完整copy到sd卡上的应该虚拟系统。**注意**！这个系统非常危险，应该保持全程断网。
