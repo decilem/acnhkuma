@@ -5,7 +5,6 @@
 [一键制卡网站](http://www.sdsetup.com/)
 进入一键制卡网站以后选择Recommended Defaults
 下面的一堆选项里面记得勾选上JKSV，忘记勾选也没关系，可以另外再下载，JKSV是把动森存档导出的关键工具
-![勾选JKSV](https://github.com/decilem/acnhkuma/raw/main/pic/makingSD.png)
 <img src="https://github.com/decilem/acnhkuma/raw/main/pic/makingSD.png" width="800">
 
 完成以后拖到最后选择download your ZIP就好了
@@ -15,8 +14,7 @@
 >在准备把东西拷入sd卡之前，记得把sd卡格式化一下，选择FAT32格式，把sd卡插入switch，开机一下，然后就可以关机把卡拔出来了，这时候卡里会自动生成一个Nintendo文件夹，保留这个文件夹
 
 然后把刚才sd文件夹里的所有文件拷入sd卡根目录，你的sd卡应该看起来像下图这样
-
-[sd卡内容](https://imgur.com/oIQdrVB)
+<img src="https://github.com/decilem/acnhkuma/raw/main/pic/SDcard.png" width="800">
 
 ### 第2步
 现在sd卡已经准备好了，这时候机子应该是关机状态
