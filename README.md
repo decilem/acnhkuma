@@ -40,7 +40,9 @@
 [备份NAND](https://switch.homebrew.guide/hacking/caffeine/safetyprecautions)
 
 ### 第4步
-从Hekate界面进入破解系统的话需要选Launch -> sysCFW 然后就进入到了CFW破解系统，从这里按一下平常打开相册的按钮就进入到自定义app界面，对于初学者来说，这里能用到的目前只有JSKV，其他不用管。打开JKSV，选择那个Switch机子图标（Device Saves）进入，里面应该可以看到动森了，这时候按Y导出全部，就把机子的存档导出来了，存档的名字叫 “Device Saves - XXXXXX”，这个就是你原机的存档了，在SD卡的JKSV文件里可以看到这个存档，这个是你原装的存档，记住多备份几遍在电脑上，以备不时之需。
+[进入破解系统](https://switch.homebrew.guide/hacking/caffeine/aftersetup)
+
+从Hekate界面进入破解系统的话需要选Launch -> CFW(sysMMC) 然后就进入到了CFW真实破解系统，从这里按一下平常打开相册的按钮就进入到自定义app界面，对于初学者来说，这里能用到的目前只有JSKV，其他不用管。打开JKSV，选择那个Switch机子图标（Device Saves）进入，里面应该可以看到动森了，这时候按Y导出全部，就把机子的存档导出来了，存档的名字叫 “Device Saves - XXXXXX”，这个就是你原机的存档了，在SD卡的JKSV文件里可以看到这个存档，这个是你原装的存档，记住多备份几遍在电脑上，以备不时之需。
 
 ## 其他解释
 > [这个网站](https://www.reddit.com/r/SwitchHaxing/comments/gip0jb/>current_methods_and_exploits_beginner_faq_3_its/)有更详细的名词解释
