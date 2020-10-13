@@ -33,11 +33,14 @@
 
 ### 第3步
 恭喜你，到这里你就已经破解成功了。 从现在开始注入器和短接器都可以拔掉了，下次关机重新开机的时候才用得到。不插注入器按电源键正常开机就是OFW原装系统了。
-后面还有很多可以折腾的东西，不过到这就可以折腾动森了。
+后面还有很多可以折腾的东西，到这就可以折腾动森了。
 
 不过在进入之前，强烈建议备份一下系统，以备不时之需。备份系统看下面的链接：
 
 [备份NAND](https://switch.homebrew.guide/hacking/caffeine/safetyprecautions)
+
+### 第4步
+从Hekate界面进入破解系统的话需要选Launch -> sysCFW 然后就进入到了CFW破解系统，从这里按一下平常打开相册的按钮就进入到自定义app界面，对于初学者来说，这里能用到的目前只有JSKV，其他不用管。打开JKSV，选择那个Switch机子图标（Device Saves）进入，里面应该可以看到动森了，这时候按Y导出全部，就把机子的存档导出来了，存档的名字叫 “Device Saves - XXXXXX”，这个就是你原机的存档了，在SD卡的JKSV文件里可以看到这个存档，这个是你原装的存档，记住多备份几遍在电脑上，以备不时之需。
 
 ## 其他解释
 > [这个网站](https://www.reddit.com/r/SwitchHaxing/comments/gip0jb/>current_methods_and_exploits_beginner_faq_3_its/)有更详细的名词解释
