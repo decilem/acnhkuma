@@ -39,6 +39,22 @@
 
 [备份NAND](https://switch.homebrew.guide/hacking/caffeine/safetyprecautions)
 
+NAND备份上面这个链接其实写的已经很清楚了，我觉得我也不会说的更好。总之就是这么几步：
+1. 备份boot0boot1
+
+2. 把卡拔出来把backup文件夹备份到电脑，然后删除sd卡上的backup文件夹
+
+3. 再插入卡，进去按说明备份RAW GPP
+
+4. 再把卡拔出来，重复步骤2，把两个backup文件夹分别保存
+
+5. 再次插卡，进入Hekate界面，按说明备份key
+
+6. 拔卡，把prod.key这个文件保存到电脑
+
+7. 结束，这样你有三个文件需要保存（第一次的backup文件夹，第二次的backup文件夹，和prod.key）
+
+
 ### 第4步
 [进入破解系统](https://switch.homebrew.guide/hacking/caffeine/aftersetup)
 
