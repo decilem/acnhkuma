@@ -75,6 +75,13 @@ NAND: Switch机子的内置内存
 
 emuNAND： 这个是为了玩盗版游戏而把机子NAND完整copy到sd卡上的应该虚拟系统。**注意**！这个系统非常危险，应该保持全程断网。
 
+## 更新大气层
+去大气层的[官方github](https://github.com/Atmosphere-NX/Atmosphere/releases)下载最新的文件,下载完以后把这些文件覆盖到你现在的sd卡就好了，非常简单。不过这次的0.16.1的更新需要同时把Hekate也更新到最新，参考下面同时把Hekate也更新
+
+## 更新Hekate
+去Hekate的[官方github](https://github.com/CTCaer/hekate/releases)把最新的release下载完成（大概就叫`hekate_ctcaer_5.5.1_Nyx_0.9.7.zip`的这个文件），解压完以后有两个文件，一个BootLoader文件夹覆盖到sd卡，另外一个叫`hekate_ctcaer_5.5.1.bin`的文件需要复制到你的注入器里面，atmosphere那个文件夹下面，里面有一个文件叫`payload.bin`，把这个文件删除，把你新复制进来的那个文件改名成`payload.bin`。
+
+然后大功告成，就可以按正常步骤进去系统了
 ## 安全第一，预防为主
 
 没有人可以说清楚老任说怎么ban机的，理论上只要上了破解道路就要做好随时被ban的准备。
