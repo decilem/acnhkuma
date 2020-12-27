@@ -1,4 +1,4 @@
-# 送给Kuma的破解教程（from DECILEM）
+# 大气层新手简陋教程（from DECILEM）
 ## 所有步骤请以Homebrew网站为准
 [点此进入网站](https://switch.homebrew.guide/)   只不过网站有点复杂，我帮着缕一缕
 ### 第1步（准备SD卡）
