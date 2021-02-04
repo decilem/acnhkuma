@@ -1,6 +1,9 @@
 # 大气层新手简陋教程（偏动森向）作者：DECILEM
 ## 所有步骤请以Homebrew网站为准
-[点此进入网站](https://switch.homebrew.guide/)   只不过网站有点复杂，我帮着缕一缕
+[点此进入Homebrew网站](https://switch.homebrew.guide/)   
+
+本教程并无任何花哨的部分，如果你跟着Homebrew的步骤也完全可以完成破解，我也是从Homebrew学习来。所有技术部分请以Homebrew网站为准。网站稍微有点复杂，我在这里缕一缕。
+
 ### 第1步（准备SD卡）
 [一键制卡网站](http://www.sdsetup.com/)
 进入一键制卡网站以后选择Recommended Defaults
@@ -40,15 +43,15 @@
 [备份NAND](https://switch.homebrew.guide/hacking/caffeine/safetyprecautions)
 
 NAND备份上面这个链接其实写的已经很清楚了，我觉得我也不会说的更好。总之就是这么几步：
-1. 备份boot0boot1
+1. 备份**boot0boot1**
 
 2. 把卡拔出来把backup文件夹备份到电脑，然后删除sd卡上的backup文件夹
 
-3. 再插入卡，进去按说明备份RAW GPP
+3. 再插入卡，进去按说明备份**RAW GPP**
 
 4. 再把卡拔出来，重复步骤2，把两个backup文件夹分别保存
 
-5. 再次插卡，进入Hekate界面，按说明备份key
+5. 再次插卡，进入Hekate界面，按说明备份**key**
 
 6. 拔卡，把prod.key这个文件保存到电脑
 
@@ -73,7 +76,7 @@ CFW： Custom Firmware 也就所谓的（Modified）破解系统
 
 NAND: Switch机子的内置内存
 
-emuNAND： 这个是为了玩盗版游戏而把机子NAND完整copy到sd卡上的应该虚拟系统。**注意**！这个系统非常危险，应该保持全程断网。
+emuNAND： 这个是为了玩盗版游戏而把机子NAND完整copy到sd卡上的虚拟系统。**注意**！这个系统非常危险，应该保持全程断网。
 
 ## 更新大气层
 去大气层的[官方github](https://github.com/Atmosphere-NX/Atmosphere/releases)下载最新的文件,下载完以后把这些文件覆盖到你现在的sd卡就好了，非常简单。不过这次的0.16.1的更新需要同时把Hekate也更新到最新，参考下面同时把Hekate也更新
@@ -84,7 +87,7 @@ emuNAND： 这个是为了玩盗版游戏而把机子NAND完整copy到sd卡上�
 然后大功告成，就可以按正常步骤进去系统了
 ## 安全第一，预防为主
 
-没有人可以说清楚老任说怎么ban机的，理论上只要上了破解道路就要做好随时被ban的准备。
+没有人可以说清楚老任说怎么ban机的，理论上只要上了破解道路就要做好**随时被ban**的准备。
 
 当然根据网友们的猜测，有些方法可以减少风险，举几个例子：
 
@@ -94,7 +97,7 @@ emuNAND： 这个是为了玩盗版游戏而把机子NAND完整copy到sd卡上�
 
 3. 关闭机子自动更新软件以及下面那个收集信息还是什么来着的选项。
 
-4. 别玩盗版（等你想玩的时候咱们再另外讨论）
+4. 别玩盗版（等你想玩的时候再另外讨论）
 
 ## FAQ
 
