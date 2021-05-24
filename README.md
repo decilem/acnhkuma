@@ -4,6 +4,86 @@
 
 本教程并无任何花哨的部分，如果你跟着Homebrew的步骤也完全可以完成破解，我也是从Homebrew学习来。所有技术部分请以Homebrew网站为准。网站稍微有点复杂，我在这里缕一缕。
 
+### 第0步（首先需要有一台可破解的Switch）
+
+关于机型是否可破大家可以自行搜素，主要是看序列号区间（见下表）。本文讲解的大气层安装方法为软破，既不依靠任何芯片改装，直接靠原厂漏洞破解。处于可破解期间的系列号都是生产比较早期，没有被任天堂修复的机型。“可能可破”的机型处于过渡期，有可能被修复，也有可能没有。需要焊接芯片的硬破方法暂不讨论。
+
+<hr>
+<table>
+<thead>
+<tr>
+<th align="left">Serial Numbers序列号</th>
+<th align="left"><span>Unpatched可破解</span></th>
+<th align="left"><span>Potentially patched有可能可破</span></th>
+<th align="left"><span>Patched无法破解</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">XAW1</td>
+<td align="left">XAW10000000000 to XAW10074000000</td>
+<td align="left">XAW10074000000 to XAW10120000000</td>
+<td align="left">XAW10120000000 and up</td>
+</tr>
+<tr>
+<td align="left">XAW4</td>
+<td align="left">XAW40000000000 to XAW40011000000</td>
+<td align="left">XAW40011000000 to XAW40012000000</td>
+<td align="left">XAW40012000000 and up</td>
+</tr>
+<tr>
+<td align="left">XAW7</td>
+<td align="left">XAW70000000000 to XAW70017800000</td>
+<td align="left">XAW70017800000 to XAW70030000000</td>
+<td align="left">XAW70030000000 and up</td>
+</tr>
+<tr>
+<td align="left">XAJ1</td>
+<td align="left">XAJ10000000000 to XAJ10020000000</td>
+<td align="left">XAJ10020000000 to XAJ10030000000</td>
+<td align="left">XAJ10030000000 and up</td>
+</tr>
+<tr>
+<td align="left">XAJ4</td>
+<td align="left">XAJ40000000000 to XAJ40046000000</td>
+<td align="left">XAJ40046000000 to XAJ40060000000</td>
+<td align="left">XAJ40060000000 and up</td>
+</tr>
+<tr>
+<td align="left">XAJ7</td>
+<td align="left">XAJ70000000000 to XAJ70040000000</td>
+<td align="left">XAJ70040000000 to XAJ70050000000</td>
+<td align="left">XAJ70050000000 and up</td>
+</tr>
+<tr>
+<td align="left">XKW1</td>
+<td align="left"><strong>N/A</strong></td>
+<td align="left"><strong>N/A</strong></td>
+<td align="left">XKW10000000000 and up</td>
+</tr>
+<tr>
+<td align="left">XKJ1</td>
+<td align="left"><strong>N/A</strong></td>
+<td align="left"><strong>N/A</strong></td>
+<td align="left">XKJ10000000000 and up</td>
+</tr>
+<tr>
+<td align="left">XJW1</td>
+<td align="left"><strong>N/A</strong></td>
+<td align="left"><strong>N/A</strong></td>
+<td align="left">XJW01000000000 and up</td>
+</tr>
+<tr>
+<td align="left">XWW1</td>
+<td align="left"><strong>N/A</strong></td>
+<td align="left"><strong>N/A</strong></td>
+<td align="left">XWW01000000000 and up</td>
+</tr>
+</tbody>
+</table>
+</article>
+  </div>
+
 ### 第1步（准备SD卡）
 [一键制卡网站](http://www.sdsetup.com/)
 进入一键制卡网站以后选择Recommended Defaults
